@@ -1,11 +1,17 @@
 {
-  "name": "bs_social_network",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "description": ""
+	"name": "bs_social_network",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"scss": "sass --watch scss css"
+	},
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"dependencies": {
+		"bootstrap": "^5.3.3",
+		"bootstrap-icons": "^1.11.3",
+		"popper.js": "^1.16.1",
+		"sass": "^1.80.4"
+	}
 }
